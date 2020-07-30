@@ -1,0 +1,191 @@
+/***************************************************************************************************************
+||||||||||||||||||||||||||             Created By: Austin Dickey                 |||||||||||||||||||||||||||||||
+****************************************************************************************************************
+||||||||||||||||||||||||||||               Table of Contents                 |||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+* 1. Body
+* 2. Headers
+* 3. NavBar
+* 4. Home
+* 5. About
+* 6. Contact
+* 7. Footer
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End Table of Contents               ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+
+/* =================================
+            Body
+================================= */
+
+body {
+    font-family: 'Gruppo', sans-serif;
+    background-image: url(../img/bg.png);
+}
+
+.content {
+    min-height: calc(100vh - 170px - 85px);
+}
+
+/* =================================
+            Headers
+================================= */
+
+h1 {
+    text-align: center;
+    color: #44c823;
+    font-family: 'Audiowide', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-weight: 900;
+    border: 3px solid #505050;
+    border-bottom: 0px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-image: url(../img/contentBG.png);
+}
+
+h4 {
+    text-align: center;
+    color: #44c823;
+    margin-top: -10px;
+}
+
+/* =================================
+            Navbar
+================================= */
+
+.fa-bars {
+    color: #44c823;
+    padding: 7px;
+    border: 2px solid #44c823;
+    border-radius: 6px;
+}
+
+.navbar {
+    background-color: #505050;
+    color: #fff;
+}
+
+.navbar-nav a {
+    color: #fff;
+}
+
+.navbar-nav a:hover {
+    text-decoration: none;
+    color: #44c823;
+}
+
+.navbar-nav .active {
+    color: #44c823;
+}
+
+.logo img {
+    padding: 0 15px;
+    height: 85px;
+}
+
+.divider:after {
+    content: "|";
+    color: #fff;
+}
+
+/* =================================
+            Home
+================================= */
+
+#titleBox {
+    margin: 50px 30%;
+    border: 6px solid #44c823;
+    border-radius: 7px;
+    background-color: #505050;
+    padding: 10px 0;
+}
+
+/* =================================
+            About
+================================= */
+
+.aboutMe {
+    border: 6px solid #44c823;
+    border-radius: 7px;
+    padding: 25px;
+    font-size: 18px;
+    background-image: url(../img/contentBG.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profilePic {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 25px;
+    border: 6px solid #505050;
+    border-radius: 7px;
+}
+
+.signature {
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+    font-size: 50px;
+    color: #505050;
+}
+
+/* =================================
+            Contact
+================================= */
+
+.contactVia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 30%;
+    border: 6px solid #44c823;
+    border-radius: 7px;
+    background-color: #505050;
+    padding: 25px 0;
+}
+
+.contactSingle {
+    margin: 0 5%;
+    text-align: center;
+}
+
+.contactSingle a {
+    color: #44c823;
+}
+
+.contactSingle a:hover {
+    color: #FFA500;
+    text-decoration: none;
+}
+
+/* =================================
+            Footer
+================================= */
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #505050;
+    color: #fff;
+    text-align: center;
+    padding-top: 13px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+footer a {
+    color: #44c823;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #FFA500;
+}
