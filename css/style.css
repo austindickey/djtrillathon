@@ -107,6 +107,16 @@ h4 {
     padding: 10px 0;
 }
 
+.soundcloudTapes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.singleTape {
+    margin: 15px;
+}
+
 /* =================================
             About
 ================================= */
