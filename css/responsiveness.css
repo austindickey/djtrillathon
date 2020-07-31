@@ -2,6 +2,10 @@
         Mobile Responsiveness
 ================================= */
 
+@media (max-width: 1024px) {
+    .soundcloudTapes iframe {width: 100%;}
+}
+
 @media (max-width: 991px) {
     .divider {display: none;}
     .navbar-nav {text-align: center;}
